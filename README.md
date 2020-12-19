@@ -19,6 +19,6 @@ Mixture of PHP &amp; MySQL magic to create readable json files for any end-users
    2. Configure each `town.php, resident.php, nations.php` variables such as `$column = 'towny_nations';` to match your case sensitive database, some databases require you set this as `$column = 'TOWNY_NATIONS';`
 3. Once configured properly, you should be able to visit your web servers address and call into the `town.php, resident.php, nations.php` files. For example, `http://localhost/towny/town.php`
 
-##API Usage 
+## API Usage 
 1. Read our documentation for EarthPol's api, (https://earthpol.github.io/dist/api.html)
 2. You can do `{method}.php?name={townname|resident|nationname}` to get individual data, or abstain for using `?name=` and pull all of the data at once.
